@@ -1,0 +1,56 @@
+body{
+  font-weight: normal;
+  text-align: center;
+  font-family: メイリオ;
+  font-size: 16px;
+  height: 100%;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.header_right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_right_1{
+  background-color: rgb(246, 76, 141);
+  color: aliceblue;
+  padding: 10px 40px;
+  margin-right:15px;
+  }
+
+.header_right_2{
+  background-color: #01692c;
+  color: aliceblue;
+  padding: 10px 40px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  padding:40px;
+  width: 80%;
+  margin: 0 auto;
+  font-family: Meiryo UI;
+}
+
+.mv{
+  width: 100%;
+}
+
+.sec_01{
+  display: flex;
+}
+.sec_01_title{
+  text-align: left;
+  margin: auto;
+}
+.img_yashinoki{
+  padding: 30px 10px;
+}
