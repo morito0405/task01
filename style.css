@@ -5,6 +5,10 @@ body{
   font-size: 16px;
   height: 100%;
 }
+main{
+  margin: 0 auto;
+}
+/* header */
 header{
   display: flex;
   justify-content: space-between;
@@ -30,7 +34,7 @@ header{
   color: aliceblue;
   padding: 10px 40px;
 }
-
+/* header終了 */
 ul{
   display: flex;
   justify-content: space-between;
@@ -40,10 +44,10 @@ ul{
   font-family: Meiryo UI;
 }
 
-.mv{
+img{
   width: 100%;
 }
-
+/* セクション01 */
 .sec_01{
   display: flex;
 }
@@ -53,4 +57,19 @@ ul{
 }
 .img_yashinoki{
   padding: 30px 10px;
+}
+/* セクション01終了/セクション02開始 */
+.wrapper{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.sec_02_title h3{
+  text-align: left;
+}
+.sec_02_left{
+
+}
+.sec_02_right{
+ 
 }
