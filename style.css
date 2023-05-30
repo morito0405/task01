@@ -1,11 +1,8 @@
 body{
   font-weight: normal;
-  text-align: center;
   font-family: メイリオ;
   font-size: 16px;
   height: 100%;
-}
-main{
   margin: 0 auto;
 }
 /* header */
@@ -35,6 +32,9 @@ header{
   padding: 10px 40px;
 }
 /* header終了 */
+main{
+  margin: 0 20px;
+}
 ul{
   display: flex;
   justify-content: space-between;
@@ -46,6 +46,7 @@ ul{
 
 img{
   width: 100%;
+  height: auto;
 }
 /* セクション01 */
 .sec_01{
@@ -59,17 +60,47 @@ img{
   padding: 30px 10px;
 }
 /* セクション01終了/セクション02開始 */
+.sec_02{
+  max-width: 1200px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
 .wrapper{
+margin-top: 10px;
   display: flex;
-  margin: 0 auto;
   justify-content: space-between;
 }
-.sec_02_title h3{
-  text-align: left;
-}
 .sec_02_left{
+  width: 48%;
 
 }
 .sec_02_right{
- 
+  width: 48%;
+}
+/* セクション02終了/セクション03の開始 */
+.sec_03{
+  background-color: rgb(223, 226, 233);
+  display: flex;
+  text-align: left;
+  margin: 6em auto;
+}
+.sec_03 img{
+  width: 48%;
+  margin: 5% 5%;
+}
+.sec_03_text{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: left;
+  margin-right: 10%;
+}
+
+.sec_03_text h2{
+  margin-bottom: 10px;
+}
+.sec_03_text p{
+  font-family:sans-serif;
+  white-space: nowrap;
 }
