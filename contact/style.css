@@ -162,6 +162,7 @@ img{
 .link{
   display: flex;
   justify-content: space-between;
+  background: url("icon.png") center/contain no-repeat;
 }
 .footer_last_p{
   text-align: center;
@@ -183,6 +184,10 @@ img{
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   margin-top: 80px;
+}
+span#privacy_policy{
+  padding-right: 12px;
+  background:url("証明書アイコン.png") middle right no-repeat;
 }
 
 @media screen and (max-width: 480px) {
@@ -292,10 +297,10 @@ img{
   }
 }
 .Form-Btn {
-  border-radius: 6px;
   margin-top: 32px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 80px;
   padding-top: 20px;
   padding-bottom: 20px;
   width: 280px;
