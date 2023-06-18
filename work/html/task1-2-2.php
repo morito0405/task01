@@ -23,5 +23,15 @@
 <br>
 <?= "消しゴムが{$eraser}円で税込".($eraser+ ($eraser*$tax/100))."円です。";?>
 
+<?php
+$a = array('田中',100,'OK');
+$b = ['中田',55,'NG']
+?>
+<p>
+  <?php print_r($a);?><br>
+  <?php print_r($b);?><br>
+  <?= $a[0];?><br>
+  <?= $b[1];?><br>
+</p>
 </body>
 </html>
